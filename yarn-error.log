@@ -1,0 +1,71 @@
+Arguments: 
+  D:\nodeJs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Rational\Rose RealTime\bin\win32;C:\Program Files (x86)\Rational\common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;D:\nodeJs\;D:\Program Files\Git\cmd;C:\Users\ASUS\AppData\Roaming\npm
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.62.173:443
+      at Object._errnoException (util.js:1041:11)
+      at _exceptionWithHostPort (util.js:1064:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1153:14)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "start": "node bin/www",
+      "dev": "./node_modules/.bin/nodemon bin/www",
+      "prd": "pm2 start bin/www",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "babel-core": "^6.26.0",
+      "babel-preset-es2015-node5": "^1.2.0",
+      "babel-preset-stage-3": "^6.24.1",
+      "continuation-local-storage": "^3.2.1",
+      "debug": "^2.6.3",
+      "fluent-ffmpeg": "^2.1.2",
+      "koa": "^2.2.0",
+      "koa-bodyparser": "^3.2.0",
+      "koa-convert": "^1.2.0",
+      "koa-json": "^2.0.2",
+      "koa-logger": "^2.0.1",
+      "koa-multer": "^1.0.2",
+      "koa-onerror": "^1.2.1",
+      "koa-router": "^7.1.1",
+      "koa-send": "^4.1.2",
+      "koa-static": "^3.0.0",
+      "koa-static-plus": "^0.1.1",
+      "koa-views": "^5.2.1",
+      "koa2-cors": "^2.0.5",
+      "lodash": "^4.17.4",
+      "moment": "^2.22.1",
+      "mysql2": "^1.5.1",
+      "pingpp": "^2.1.1",
+      "pug": "^2.0.0-rc.1",
+      "sequelize": "^4.31.2",
+      "svg-captcha": "^1.3.11",
+      "util": "^0.10.3"
+    },
+    "devDependencies": {
+      "nodemon": "^1.8.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
